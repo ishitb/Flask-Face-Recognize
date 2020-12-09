@@ -1,0 +1,13 @@
+Activate the virtual environment
+  .\venv\Scripts\activate 
+Deactivate the virtual environment
+    Deactivate
+pip3 freeze > requirements.txt
+pip3 install -r requirements.txt  
+  
+ACTIVATE THE environment
+pip install ipykernel
+ipython kernel install --user --name=projectname
+
+Then choose the kernel, it sometimes take time to be visible hence try restarting vscode
+If you move your folders up and down or rename them then I think you have to make the kernel all over again
